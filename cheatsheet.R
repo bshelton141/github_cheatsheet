@@ -59,7 +59,10 @@ git add -A
 git commit -m "made a change"
 git push
 
-#to push with a different user name, 
-#sign into the different account when pushing for the first time in the sesion
+#to push as a different user, 
+#sign into the different account using the following credential techniques:
+--git config global user.name "username"
+--git config global user.email "email address"
+
 
 
