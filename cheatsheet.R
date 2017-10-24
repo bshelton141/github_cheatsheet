@@ -44,7 +44,7 @@ git branch test1
 git checkout test1
 
 #after you make your updates in the new branch,
-#swith back to the master branch and do a new pull to ensure that there haven't
+#switch back to the master branch and do a new pull to ensure that there haven't
 #been any changes from others on the master branch
 #if there have, then you need to merge the updated master with your new branch:
 git checkout master
@@ -54,7 +54,8 @@ git checkout test1
 git merge master
 
 #commit and push the new file
-git status -A
+git status
+git add -A
 git commit -m "made a change"
 git push
 
