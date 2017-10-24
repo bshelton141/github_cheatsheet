@@ -1,4 +1,8 @@
 
+###################
+# Intro
+###################
+
 #Change to the correct directory in the terminal where you want the repository to land.
 
 #Download the GitHub repository: 
@@ -28,5 +32,31 @@ git push
 #To pull all updates from remote to local (need to be in the correct directory for this to work):
 git pull
 
+
+###################
+# Pull requests, branching, and merging
+###################
+
+#to create a new branch use git branch:
+git branch test1
+
+#switch to the new branch:
+git checkout test1
+
+#after you make your updates in the new branch,
+#switch back to the master branch and do a new pull to ensure that there haven't
+#been any changes from others on the master branch
+#if there have, then you need to merge the updated master with your new branch:
+git checkout master
+git pull
+git checkout test1
+#only needed if there has been a change on the master:
+git merge master
+
+#commit and push the new file
+git status
+git add -A
+git commit -m "made a change"
+git push
 
 
