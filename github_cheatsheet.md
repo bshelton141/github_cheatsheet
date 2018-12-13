@@ -3,7 +3,7 @@
 
 Before diving into command line code, let's take a moment to walk through the different components of the Git workflow at L.A. Care.
 
-![alt text](https://dsghe.lacare.org/bshelton/github_cheatsheet/blob/master/files/images/gitflow_single_branch.png)
+![alt text](https://github.com/bshelton141/github_cheatsheet/blob/master/gitflow_single_branch.png)
 
 
 
